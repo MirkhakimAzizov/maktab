@@ -113,7 +113,7 @@ const index = () => {
       </div>
 
       <div className="container">
-        <ul className="home__list mt-5 d-flex flex-column gap-3">
+        <ul className="home__list p-0 mt-5 d-flex flex-column gap-3">
           <li className="card border p-3 m-2">
             <div className="card-body text-center d-flex flex-column border rounded-2">
               <h3 className="card-title fs-1">94</h3>
@@ -135,7 +135,7 @@ const index = () => {
         </ul>
       </div>
 
-      <ul className="home__list my-5 d-flex gap-5 flex-column align-items-center justify-content-center">
+      <ul className="home__list p-0 my-5 d-flex gap-5 flex-column align-items-center justify-content-center">
         <li className="home__item w-75 d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5">
           <img
             className="rounded-5"
