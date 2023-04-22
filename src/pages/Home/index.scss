@@ -1,0 +1,23 @@
+.maps {
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+    &-link {
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 0px;
+    }
+    &-loc {
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 14px;
+    }
+    &-city {
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin-left: auto;
+    }
+}
